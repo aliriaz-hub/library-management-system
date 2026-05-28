@@ -1,0 +1,86 @@
+================================================================================
+                        LIBRARY MANAGEMENT SYSTEM
+                         Data Records File - v1.0
+================================================================================
+
+--------------------------------------------------------------------------------
+SECTION 1: BOOKS
+--------------------------------------------------------------------------------
+
+[BOOK-001]
+Title         : The Alchemist
+Author        : Paulo Coelho
+ISBN          : ISBN001
+Genre         : Fiction
+Status        : Available
+
+[BOOK-002]
+Title         : Clean Code
+Author        : Robert C. Martin
+ISBN          : ISBN002
+Genre         : Technology
+Status        : Borrowed
+
+[BOOK-003]
+Title         : Atomic Habits
+Author        : James Clear
+ISBN          : ISBN003
+Genre         : Self-Help
+Status        : Available
+
+--------------------------------------------------------------------------------
+SECTION 2: MEMBERS
+--------------------------------------------------------------------------------
+
+[MEMBER-001]
+Member ID     : M001
+Name          : Ali Hassan
+Email         : ali@mail.com
+Borrowed      : ISBN002
+
+[MEMBER-002]
+Member ID     : M002
+Name          : Sara Khan
+Email         : sara@mail.com
+Borrowed      : None
+
+--------------------------------------------------------------------------------
+SECTION 3: TRANSACTIONS
+--------------------------------------------------------------------------------
+
+[TXN-001]
+Transaction ID : TXN1
+Book ISBN      : ISBN002
+Book Title     : Clean Code
+Member ID      : M001
+Member Name    : Ali Hassan
+Date Issued    : 2025-05-01
+Due Date       : 2025-05-15
+Status         : Overdue
+Fine           : Rs. 35.00
+
+--------------------------------------------------------------------------------
+SECTION 4: LIBRARIAN
+--------------------------------------------------------------------------------
+
+[LIBRARIAN-001]
+Member ID     : L001
+Name          : Junaid Zaffar
+Email         : junaid@library.com
+Staff ID      : STAFF-001
+Role          : Head Librarian
+
+--------------------------------------------------------------------------------
+SECTION 5: LIBRARY SUMMARY
+--------------------------------------------------------------------------------
+
+Total Books          : 3
+Total Members        : 2
+Total Transactions   : 1
+Books Available      : 2
+Books Borrowed       : 1
+Pending Fines        : Rs. 35.00
+
+================================================================================
+                          END OF RECORDS FILE
+================================================================================
