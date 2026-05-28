@@ -1,9 +1,5 @@
 # Library Management System
-
-**Project 01 of 05 — OOP Class Projects**
-**Level:** Beginner – Intermediate
 **Language:** C++
-**Effort:** 2 – 3 Days
 
 ---
 
@@ -26,30 +22,6 @@ register new members, issue books, accept returns, and track overdue fines.
 
 ---
 
-## Class Design
-
-### Book
-- **Attributes:** title, author, ISBN, genre, is_available (all private)
-- **Methods:** get_title(), get_ISBN(), mark_borrowed(), mark_returned(), display_info()
-
-### Member
-- **Attributes:** member_id (private), name, email, borrowed_books[]
-- **Methods:** add_borrowed(), remove_borrowed(), view_history(), get_id()
-
-### Librarian (inherits Member)
-- **Attributes:** staff_id
-- **Extra privileges:** add_book(), remove_book() via Library class
-
-### Transaction
-- **Attributes:** transaction_id, book_isbn, member_id, date_issued, due_date
-- **Methods:** calculate_fine(), get_status(), display()
-
-### Library
-- **Attributes:** books[], members[], transactions[]
-- **Methods:** register_member(), issue_book(), accept_return(), search_book(), generate_report()
-
----
-
 ## Features
 
 - Add, remove, and search books by title, author, or ISBN
@@ -58,21 +30,6 @@ register new members, issue books, accept returns, and track overdue fines.
 - Accept book returns and auto-calculate overdue fines (Rs. 5 per day)
 - Display all currently borrowed books and pending returns
 - Check real-time availability status of any book
-
----
-
-## How to Compile and Run
-
-```
-g++ -std=c++17 -o library_management library_management.cpp
-./library_management
-```
-
-On Windows:
-```
-g++ -std=c++17 -o library_management.exe library_management.cpp
-library_management.exe
-```
 
 ---
 
@@ -91,20 +48,3 @@ library_management.exe
 0. Exit
 ```
 
----
-
-## Evaluation Rubric
-
-| Criteria | Marks |
-|---|---|
-| Correct OOP structure | 20 |
-| Encapsulation | 20 |
-| Inheritance | 15 |
-| Borrow / Return / Fine logic | 25 |
-| Menu-driven interface | 10 |
-| Code readability and comments | 10 |
-| **Total** | **100** |
-
----
-
-*Learn with Junaid Zaffar — Project 01 of 05 | OOP Class Projects*
